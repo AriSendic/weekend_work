@@ -3,14 +3,14 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
-reversed = []
+  reversed = []
   array = string.split("")
 
   until array.empty?
     reversed << array.pop
   end
 
-reversed.join
+  reversed.join
 end
 # Driver code - don't touch anything below this line.
 puts "TESTING reverse_a_string..."
